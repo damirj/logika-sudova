@@ -1,0 +1,191 @@
+table {
+    font-family: "Courier New", Courier, monospace;
+    border: 1px solid
+}
+
+td, th {
+    text-align: center;
+    padding: 8px;
+    white-space: nowrap;
+}
+
+tr:nth-child(even) {
+    background-color: #1c2023;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.table > tbody> tr:first-child:hover {
+    background-color: #212529!important;
+}
+
+.table > tbody> tr> th:first-child {
+    position: absolute;
+    display: inline-block;
+    background-color: #556270;
+    width: 55px;
+}
+
+.table > tbody > tr > td:first-child {
+    position: absolute;
+    display: inline-block;
+    background-color: #556270;
+    width: 55px;
+}
+
+.table > tbody> tr> th:nth-child(2) {
+    padding-left: 65px;
+}
+
+.table > tbody > tr > td:nth-child(2) {
+    padding-left: 65px !important;
+}
+
+small {
+  text-align: center;
+}
+
+.naslov{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #32383e;
+  font-family: "Courier New", Courier, monospace;
+}
+
+form {
+  font-family: "Courier New", Courier, monospace;
+}
+
+form > input{
+  text-align: center;
+}
+
+.form-text{
+  margin-bottom: 15px;
+}
+
+.operacije-gumbi{
+  margin-bottom: 30px;
+}
+
+.submit-gumb{
+  margin: 20px auto;
+}
+
+.operacija-gumb-zasebno{
+  margin: 0 5px;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.btn-info{
+  background-color:#0f8396!important;
+}
+
+.btn-primary{
+  background-color: #34678e;
+  border-color: #34678e;
+}
+
+@media only screen and (max-width: 1023px) {
+  table{
+    font-size: 15px;
+  }
+
+  p{
+    font-size: 19px;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  table{
+    font-size: 12px;
+  }
+
+  p{
+    font-size: 17px;
+  }
+
+  .naslov{
+    font-size: 30px;
+  }
+
+  .forma{
+    padding: 4px;
+  }
+
+  #passwordHelpBlock{
+    font-size: 70%;
+  }
+
+  .operacije-gumbi{
+    margin-bottom: 20px;
+  }
+
+  .operacija-gumb-zasebno{
+    font-size: 11.5px;
+  }
+
+  .submit-gumb{
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 534px) {
+  table{
+    font-size: 11px;
+  }
+
+  p{
+    font-size: 16px;
+  }
+
+  .naslov{
+    font-size: 22px;
+  }
+
+  .forma{
+    padding: 1px;
+  }
+
+  .operacije-gumbi{
+    margin-bottom: 20px;
+  }
+
+  .operacija-gumb-zasebno{
+    font-size: 11px;
+  }
+
+  .submit-gumb{
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* TEST */
+
+#top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+#top i{
+  font-size: 40px
+}
